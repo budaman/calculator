@@ -1,0 +1,46 @@
+body, html {
+   background-color: #032B43;
+   color: white;
+   font-size: 15px;
+}
+
+
+body {
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ align-items: center;
+}
+
+.container {
+   width: 20%;
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px solid white;
+}
+
+
+.view {
+   width: 100%;
+   background-color: #FFBA08;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+}
+
+.number {
+   width: 33.33%;
+   height: 60px;
+}
+
+.op {
+   width: 33.33%;
+   height: 60px;
+}
+
+.lygu {
+   width: 33.33%;
+   height: 60px;
+}
